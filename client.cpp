@@ -74,7 +74,7 @@ again:
         Server.send(buffer, bytes_rcvd);
     }
 
-    m_connected =
+    m_connected = false;
     printf("Remote server dropped connection\n");
     goto again;
 
